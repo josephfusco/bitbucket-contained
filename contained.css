@@ -1,0 +1,40 @@
+/* Bitbucket Contained */
+
+div.aui-header-inner,
+div.aui-navgroup-inner,
+div.aui-page-header-inner,
+div.aui-page-panel-inner {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.team-list>.team,
+div.team-list>.user,
+div.user-list>.team,
+div.user-list>.user {
+    width: 333px !important;
+}
+#repo-admin-nav {
+    padding-left: 0;
+}
+
+/* Sidebar */
+
+div.aui-sidebar-submenu[aria-expanded=false]~.aui-page-panel,
+div.aui-sidebar[aria-expanded=false]~.aui-page-panel,
+div.aui-sidebar-submenu~.aui-page-panel,
+div.aui-sidebar~.aui-page-panel {
+    padding-left: 0;
+}
+@media (max-width: 1140px) {
+    div.aui-sidebar-submenu[aria-expanded=false]~.aui-page-panel,
+    div.aui-sidebar[aria-expanded=false]~.aui-page-panel {
+        padding-left: 56px;
+    }
+}
+@media (max-width: 1630px) {
+    div.aui-sidebar-submenu~.aui-page-panel,
+    div.aui-sidebar~.aui-page-panel {
+        padding-left: 280px;
+    }
+}

@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "css": [ "contained.css" ],
+      "matches": [ "*://*.bitbucket.org/*" ]
+   } ],
+   "description": "Userstyles to prevent fluid behavior of Bitbucket",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Bitbucket Contained",
+   "version": "1.0.1"
+}
