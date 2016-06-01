@@ -1,2 +1,2 @@
 # Bitbucket Contained
-Userstyles to prevent fluid behavior of Bitbucket
+Chrome Extension that prevents fluid behavior of Bitbucket
